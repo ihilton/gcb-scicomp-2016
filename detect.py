@@ -15,7 +15,7 @@ def detect_problems(filename):
         print 'High scores on chrM!'
     else:
         print 'Seems OK!'
-        
+# changed this POS code        
 filenames = glob.glob('/Users/dcl9/gcbCourse/materials/cshl_rna_seq/*.bed*')
 for f in filenames:
     print f
